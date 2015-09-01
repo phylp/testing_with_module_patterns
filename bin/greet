@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var greet = require(__dirname +  '/../lib/greet.js');
+
+console.log(greet(process.argv[2]));

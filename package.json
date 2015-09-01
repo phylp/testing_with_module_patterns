@@ -1,0 +1,23 @@
+{
+  "name": "Simple_Test_and_Modular_Patterns",
+  "version": "0.1.0",
+  "description": "illustration of testing with mocha & chai, and modular patterns in JS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "author": "philson3@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.3.0",
+    "gulp": "~3.9.0",
+    "jshint": "~2.8.0",
+    "gulp-mocha": "~2.1.3",
+    "gulp-jshint": "~1.11.2"
+  },
+  "dependencies": {}
+}
