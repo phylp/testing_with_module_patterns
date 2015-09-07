@@ -1,7 +1,0 @@
-'use strict';
-
-var greet = exports.module = exports = function(name){
-	return "Hey, what's up " + name + "?";
-}
-
-console.log(greet(name));
